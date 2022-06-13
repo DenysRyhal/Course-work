@@ -1,0 +1,162 @@
+
+
+.header_link { 
+    color: white;
+    font-size: 18px;
+    color: #3c3b3e;
+    font-weight: 700;
+}
+
+.our_contacts{
+    color: #ffaa00;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contacts {
+    padding-top: 100px;
+}
+.contacts_body {
+    padding: 0px 2px;
+    display: flex;
+    
+}
+.contacts_map {
+    width: 60%;
+}
+
+.contacts_map iframe {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.contacts_mail {
+    padding-left: 20px;
+    width: 50%;
+}
+.contacts_title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.title {
+}
+.contants_first_name {
+}
+
+input[type='text']{
+    color: #3b3d42;
+    font-size: 16px;
+}
+
+textarea[name='message']{
+    color: #3b3d42;
+    font-size: 16px;
+}
+
+.info p {
+    padding-top: 2;
+    padding-bottom: 5px;
+    color: #3b3d42;
+    font-size: 16px;
+}
+
+
+
+.info input {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1.5px solid #cdcdcd;
+}
+
+.info textarea {
+    width: 100%;
+    height: 270px;
+    border-bottom: 1.5px solid #cdcdcd;
+}
+
+
+.info textarea:focus {
+    border-bottom: 1.5px solid #ffaa00;
+}
+
+.info input:focus {
+    border-bottom: 1.5px solid #ffaa00;
+}
+
+
+.contants_second_name {
+}
+
+
+
+.contacts_button {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffaa00;
+    color: white;
+    transition: all .4s ease;
+}
+
+.contacts_button:hover {
+   transform: scale(1.07);
+}
+
+.contacts_button:active{
+    transform: scale(0.95);
+}
+
+
+@media (max-width: 730px) {
+    .contacts {
+        padding-top: 70px;
+    }
+
+    .contacts_body{
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contacts_map {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .contacts_mail {
+        padding-left: 20px;
+        width: 100%;
+    }
+    .contacts_title{
+        padding-top: 30px;
+    }
+
+    .info textarea {
+       height: 200px;
+    }
+}
+
+
+@media(max-width: 536px){
+   
+    .contacts_button{
+        width: 130px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
